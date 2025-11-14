@@ -1,0 +1,1652 @@
+@media (min-width: 1600px) {
+  /* -------------------------------
+   Banner Section
+--------------------------------*/
+
+  .banner-image .banner-bitcoin {
+    width: 87px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -53%);
+  }
+
+  /* -------------------------------
+   Invest Crypto Section
+--------------------------------*/
+  .coin4 {
+    width: 70px;
+    left: 5% !important;
+    top: 85%;
+    z-index: 2;
+  }
+}
+
+/* -------------------------------
+   Larger than Desktop
+   min-width: 1400px and max-width: 1599.98px
+--------------------------------*/
+
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+  /* -------------------------------
+   Banner Section
+--------------------------------*/
+
+  .banner-image .banner-bitcoin {
+    width: 88px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -53%);
+  }
+
+  /* -------------------------------
+   Invest Crypto Section
+--------------------------------*/
+
+  .coin4 {
+    width: 70px;
+    left: 6% !important;
+    top: 85%;
+    z-index: 2;
+  }
+
+  .coin2 {
+    width: 70px;
+    left: 54% !important;
+    top: 34%;
+    z-index: 3;
+  }
+
+  .coin3 {
+    width: 70px;
+    left: 69% !important;
+    top: 47%;
+    z-index: 3;
+  }
+
+  .coin1 {
+    width: 70px;
+    left: 73% !important;
+    top: 22%;
+    z-index: 3;
+  }
+}
+
+/* -------------------------------
+   Extra Large Devices (large desktops)
+   min-width: 1200px and max-width: 1399.98px
+--------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* -------------------------------
+   Banner Section
+--------------------------------*/
+
+  .banner-image .banner-img {
+    width: 480px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .banner-image .banner-bitcoin {
+    width: 80px;
+    position: absolute;
+    top: 51%;
+    left: 51%;
+    transform: translate(-49%, -53%);
+  }
+
+  /* -------------------------------
+   Invest Crypto Section
+--------------------------------*/
+
+  .bag {
+    width: 450px;
+    left: 58%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+
+  .left-star {
+    left: 13%;
+    top: 50%;
+    width: 20px !important;
+  }
+
+  .right-star1 {
+    left: 50%;
+    top: 31%;
+    width: 37px;
+  }
+
+  .coin4 {
+    width: 70px;
+    left: 10% !important;
+    top: 84%;
+    z-index: 2;
+  }
+
+  /* -------------------------------
+   Crypto Mining Section
+--------------------------------*/
+
+  .gear1 {
+    width: 330px;
+    height: auto;
+    top: 62px;
+    left: 109px;
+    z-index: 4;
+  }
+
+  .left-axe {
+    width: 360px;
+    top: 27px;
+    left: 74px;
+    z-index: 2;
+    transform-origin: bottom right;
+  }
+
+  .right-axe {
+    width: 360px;
+    top: 25px;
+    right: 70px;
+    z-index: 2;
+    transform-origin: bottom left;
+  }
+
+  /* -------------------------------
+   Pro Mining Section
+--------------------------------*/
+
+  .mining-para {
+    width: 540px;
+  }
+
+  .pro-miner-para {
+    width: 540px;
+  }
+
+  .laptop-base {
+    bottom: -12em;
+    left: 40%;
+    transform: translateX(-50%);
+    z-index: 5;
+    min-width: 440px !important;
+  }
+
+  .central-bitcoin {
+    top: 50px;
+    left: 41%;
+    width: 107px;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+
+  .hammer {
+    top: -166px;
+    left: -19%;
+    z-index: 9;
+    transform-origin: top center;
+    width: 235px;
+  }
+
+  .g1 {
+    top: -137px;
+    left: -19%;
+  }
+
+  .g2 {
+    top: -254px;
+    left: 1%;
+  }
+
+  .key-icon {
+    right: 9%;
+    top: -11em;
+    z-index: 6;
+    width: 80px;
+  }
+
+  .percentage-icon {
+    left: -9%;
+    top: 1em;
+    z-index: 6;
+    width: 80px;
+  }
+
+  .buy-btn {
+    bottom: -148px;
+    left: 21%;
+    width: 50px;
+    z-index: 9;
+  }
+
+  .sell-btn {
+    bottom: -148px;
+    right: 39%;
+    width: 50px;
+    z-index: 9;
+  }
+
+  .a1 {
+    top: -225px;
+    left: 12%;
+    width: 150px;
+  }
+
+  .a2 {
+    top: -251px;
+    left: 33%;
+    width: 220px;
+  }
+
+  .a3 {
+    top: -151px;
+    right: 19px;
+    width: 170px;
+  }
+
+  .line {
+    top: -79px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 125px;
+    z-index: 4;
+    opacity: 0.8;
+  }
+
+  .fc1 {
+    top: -184px;
+    left: 129px;
+    width: 65px;
+  }
+
+  .fc2 {
+    top: -233px;
+    left: 45%;
+    width: 60px;
+  }
+
+  .fc3 {
+    top: -155px;
+    right: 26%;
+  }
+
+  .fc4 {
+    top: -120px;
+    right: 54%;
+    width: 60px;
+  }
+
+  .fc5 {
+    top: -129px;
+    left: 48%;
+    width: 60px;
+  }
+
+  .g3 {
+    top: -239px;
+    right: 25%;
+  }
+
+  .g4 {
+    top: 58px;
+    right: 18%;
+    width: 70px;
+  }
+}
+
+/* -------------------------------
+   Large Devices (desktops)
+   min-width: 992px and max-width: 1199.98px
+--------------------------------*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* -------------------------------
+   Banner Section
+--------------------------------*/
+
+  .navbar-nav .nav-link {
+    font-size: 16px !important;
+  }
+
+  .banner-image {
+    position: relative;
+    width: 415px;
+    height: 530px;
+    margin-left: 2em;
+  }
+
+  .banner-image .banner-bitcoin {
+    width: 70px;
+    position: absolute;
+    top: 53%;
+    left: 52%;
+    transform: translate(-49%, -53%);
+  }
+
+  .banner-title-main,
+  .banner-title-gradient,
+  .banner-title-gradient,
+  .banner-subtitle {
+    font-size: 50px !important;
+  }
+
+  .banner-description {
+    max-width: 75%;
+  }
+
+  /* -------------------------------
+   Slider Image Section
+--------------------------------*/
+
+  .slider-img {
+    width: 175px;
+    height: 47px;
+    transition: all 0.3s ease;
+  }
+
+  .card-title {
+    font-size: 22px;
+  }
+
+  /* -------------------------------
+   Invest Section
+--------------------------------*/
+
+  .invest-title {
+    font-size: 35px !important;
+  }
+
+  .invest-para {
+    width: 450px;
+  }
+
+  .bag {
+    width: 450px;
+    left: 47%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+
+  .coin1 {
+    width: 70px;
+    left: 73% !important;
+    top: 22%;
+    z-index: 3;
+  }
+
+  .coin2 {
+    width: 70px;
+    left: 50% !important;
+    top: 36%;
+    z-index: 3;
+  }
+
+  .coin3 {
+    width: 70px;
+    left: 68% !important;
+    top: 45%;
+    z-index: 3;
+  }
+
+  .coin4 {
+    width: 70px;
+    left: 2% !important;
+    top: 86%;
+    z-index: 2;
+  }
+
+  .left-star {
+    left: 2%;
+    top: 50%;
+    width: 20px !important;
+  }
+
+  .right-star5 {
+    left: 84%;
+    top: 57%;
+    width: 37px !important;
+  }
+
+  .right-star6 {
+    left: 89%;
+    top: 86%;
+    width: 20px !important;
+  }
+
+  /* -------------------------------
+   Crypto mining section
+--------------------------------*/
+
+  .gear1 {
+    width: 330px;
+    height: auto;
+    top: 62px;
+    left: 64px;
+    z-index: 4;
+  }
+
+  .right-axe {
+    width: 360px;
+    top: 28px;
+    right: 27px;
+    z-index: 2;
+    transform-origin: bottom left;
+  }
+
+  .left-axe {
+    width: 360px;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+    transform-origin: bottom right;
+  }
+  .pro-miner-title {
+    font-size: 35px;
+  }
+
+  .mining-para {
+    width: 425px;
+  }
+
+  /* -------------------------------
+   Pro mining section
+--------------------------------*/
+
+  .mining-title {
+    font-size: 35px;
+  }
+
+  .pro-miner-text {
+    width: 425px;
+  }
+
+  .laptop-base {
+    bottom: -14em;
+    left: 40%;
+    transform: translateX(-50%);
+    z-index: 5;
+    min-width: 440px !important;
+  }
+
+  .central-bitcoin {
+    top: 85px;
+    left: 41%;
+    width: 107px;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+
+  .hammer {
+    top: -135px;
+    left: -33%;
+    z-index: 9;
+    transform-origin: top center;
+    width: 235px;
+  }
+
+  .g1 {
+    top: -114px;
+    left: -32%;
+  }
+
+  .g2 {
+    top: -225px;
+    left: -7%;
+  }
+
+  .key-icon {
+    right: -2%;
+    top: -7em;
+    z-index: 6;
+    width: 80px;
+  }
+
+  .percentage-icon {
+    left: -21%;
+    top: 3em;
+    z-index: 6;
+    width: 80px;
+  }
+
+  .buy-btn {
+    bottom: -179px;
+    left: 17%;
+    width: 50px;
+    z-index: 9;
+  }
+
+  .sell-btn {
+    bottom: -179px;
+    right: 35%;
+    width: 50px;
+    z-index: 9;
+  }
+
+  .a1 {
+    top: -173px;
+    left: 3%;
+    width: 150px;
+  }
+
+  .a2 {
+    top: -187px;
+    left: 33%;
+    width: 220px;
+  }
+
+  .a3 {
+    top: -45px;
+    right: -14px;
+    width: 170px;
+  }
+
+  .line {
+    top: -79px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 125px;
+    z-index: 4;
+    opacity: 0.8;
+  }
+
+  .fc1 {
+    top: -135px;
+    left: 88px;
+    width: 65px;
+  }
+
+  .fc2 {
+    top: -183px;
+    left: 44%;
+    width: 60px;
+  }
+
+  .fc3 {
+    top: -138px;
+    right: 14%;
+  }
+
+  .fc4 {
+    top: -87px;
+    right: 46%;
+    width: 60px;
+  }
+
+  .fc5 {
+    top: -97px;
+    left: 57%;
+    width: 60px;
+  }
+
+  .g3 {
+    top: -239px;
+    right: 25%;
+  }
+
+  .g4 {
+    top: 96px;
+    right: 8%;
+    width: 70px;
+  }
+
+  .invest-crypton-para {
+    max-width: 700px;
+  }
+}
+
+/* -------------------------------
+   Tablets
+--------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* -------------------------------
+   Banner Section
+--------------------------------*/
+
+  .banner-image .banner-img {
+    width: 530px;
+    position: absolute;
+    top: 42%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  }
+
+  .banner-image .banner-bitcoin {
+    width: 95px;
+    position: absolute;
+    top: 42%;
+    left: 55%;
+    transform: translate(-49%, -53%);
+  }
+
+  .banner-title-main,
+  .banner-title-gradient,
+  .banner-title-gradient,
+  .banner-subtitle {
+    font-size: 55px !important;
+  }
+
+  .banner-description {
+    max-width: 90%;
+  }
+
+  /* -------------------------------
+   Market trend Section
+--------------------------------*/
+
+  .market-title {
+    font-size: 40px !important;
+  }
+
+  .market-subtitle {
+    font-size: 35px !important;
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 4em;
+  }
+
+  .search-input {
+    width: 610px;
+  }
+
+  .market-content {
+    width: 700px;
+  }
+
+  /* -------------------------------
+   Slider Image Section
+--------------------------------*/
+
+  .slider-img {
+    width: 130px;
+    height: 47px;
+  }
+
+  /* -------------------------------
+   Crypton Card Section
+--------------------------------*/
+
+  .crypton-title {
+    font-size: 45px !important;
+  }
+
+  /* -------------------------------
+   Invest Section
+--------------------------------*/
+
+  .invest-container {
+    position: relative;
+    width: 400px;
+    height: 500px;
+  }
+
+  .coin4 {
+    width: 70px;
+    left: 0% !important;
+    top: 82%;
+    z-index: 2;
+  }
+
+  .coin1 {
+    width: 70px;
+    left: 75% !important;
+    top: 22%;
+    z-index: 3;
+  }
+
+  .coin2 {
+    width: 70px;
+    left: 56% !important;
+    top: 36%;
+    z-index: 3;
+  }
+
+  .coin3 {
+    width: 70px;
+    left: 72% !important;
+    top: 48%;
+    z-index: 3;
+  }
+
+  .left-star {
+    left: 2%;
+    top: 50%;
+    width: 20px !important;
+  }
+
+  .invest-title {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .invest-para {
+    width: 650px;
+  }
+
+  /* -------------------------------
+   Crypton Section
+--------------------------------*/
+
+  .gear1 {
+    width: 330px;
+    height: auto;
+    top: 64px;
+    left: 180px;
+    z-index: 4;
+  }
+  .left-axe {
+    width: 360px;
+    top: 31px;
+    left: 147px;
+    z-index: 2;
+    transform-origin: bottom right;
+  }
+
+  .right-axe {
+    width: 360px;
+    top: 30px;
+    right: 153px;
+    z-index: 2;
+    transform-origin: bottom left;
+  }
+
+  .mining-title {
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: 40px;
+  }
+
+  .mining-para {
+    width: 600px;
+  }
+
+  /* -------------------------------
+   Get Started Section
+--------------------------------*/
+
+  .mini-title {
+    font-size: 45px;
+  }
+
+  .mini-para {
+    width: 530px;
+    margin-bottom: 30px;
+  }
+
+  .step-title {
+    font-size: 19px;
+  }
+
+  /* -------------------------------
+   Pro miner Section
+--------------------------------*/
+
+  .pro-miner-title {
+    font-size: 50px;
+    line-height: 65px;
+  }
+
+  .pro-miner-text {
+    margin-bottom: 2.5rem;
+    width: 500px;
+  }
+
+  .pro-miner-para {
+    width: 650px;
+  }
+
+  .pro-miner-content {
+    margin-bottom: 12em;
+  }
+
+  .pro-miner-image {
+    height: 300px;
+    margin: 0;
+  }
+
+  .laptop-base {
+    bottom: -29em;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+  }
+
+  .line {
+    top: -17px;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    z-index: 4;
+    opacity: 0.8;
+  }
+
+  .central-bitcoin {
+    top: 220px;
+    left: 51%;
+    width: 130px;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+
+  .buy-btn {
+    bottom: -385px;
+    left: 32%;
+    width: 50px;
+    z-index: 9;
+  }
+
+  .sell-btn {
+    bottom: -385px;
+    right: 30%;
+    width: 50px;
+    z-index: 9;
+  }
+
+  .percentage-icon {
+    left: 7%;
+    top: 16em;
+    z-index: 6;
+    width: 80px;
+  }
+
+  .key-icon {
+    right: 5%;
+    top: -2em;
+    z-index: 6;
+    width: 80px;
+  }
+
+  .hammer {
+    top: -47px;
+    left: 3%;
+    z-index: 9;
+    transform-origin: top center;
+    width: 235px;
+  }
+
+  .a1 {
+    top: -92px;
+    left: 22%;
+    width: 140px;
+  }
+
+  .a2 {
+    top: -105px;
+    left: 56%;
+    width: 200px;
+  }
+
+  .a3 {
+    top: 47px;
+    right: 8px;
+    width: 170px;
+  }
+
+  .g4 {
+    top: 271px;
+    right: 8%;
+    width: 110px;
+  }
+
+  .g1 {
+    top: -13px;
+    left: 3%;
+    width: 70px;
+  }
+
+  .g2 {
+    top: -115px;
+    left: 17%;
+    width: 65px;
+  }
+
+  .g3 {
+    top: -112px;
+    right: 29%;
+    width: 65px;
+  }
+
+  .fc1 {
+    top: -54px;
+    left: 224px;
+    width: 60px;
+  }
+
+  .fc5 {
+    top: -7px;
+    left: 61%;
+    width: 65px;
+  }
+
+  .fc4 {
+    top: 1px;
+    right: 51%;
+    width: 60px;
+  }
+
+  .fc2 {
+    top: -90px;
+    left: 46%;
+    width: 55px;
+  }
+
+  .fc3 {
+    top: -38px;
+    right: 26%;
+    width: 75px;
+  }
+
+  /* -------------------------------
+   Invest Crypto Section
+--------------------------------*/
+
+  .invest-bg {
+    margin-top: 2em !important;
+  }
+
+  .invest-crypton-title {
+    font-size: 35px;
+  }
+
+  .invest-crypton-para {
+    max-width: 620px;
+  }
+
+  .invest-crypton-content {
+    padding: 60px 20px;
+    text-align: center;
+  }
+}
+
+/* -------------------------------
+   Small Devices (phones landscape, large mobiles)
+   min-width: 576px and max-width: 767.98px
+--------------------------------*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* -------------------------------
+   Banner Section
+--------------------------------*/
+
+  .banner-image .banner-img {
+    width: 530px;
+    position: absolute;
+    top: 42%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+  }
+
+  .banner-image .banner-bitcoin {
+    width: 95px;
+    position: absolute;
+    top: 42%;
+    left: 38%;
+    transform: translate(-49%, -53%);
+  }
+
+  .banner-title-main,
+  .banner-title-gradient,
+  .banner-title-gradient,
+  .banner-subtitle {
+    font-size: 50px !important;
+  }
+
+  .banner-description {
+    max-width: 85%;
+  }
+
+  /* -------------------------------
+   Market trend Section
+--------------------------------*/
+
+  .market-title {
+    font-size: 40px !important;
+  }
+
+  .market-subtitle {
+    font-size: 35px !important;
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 4em;
+  }
+
+  .search-input {
+    width: 510px;
+  }
+
+  .market-content {
+    width: 600px;
+    margin-left: -35px;
+  }
+
+  /* -------------------------------
+   Slider Image Section
+--------------------------------*/
+
+  .slider-img {
+    width: 110px;
+    height: 40px;
+  }
+
+  /* -------------------------------
+   Crypton Card Section
+--------------------------------*/
+
+  .crypton-title {
+    font-size: 40px !important;
+  }
+
+  /* -------------------------------
+   Invest Section
+--------------------------------*/
+
+  .invest-container {
+    position: relative;
+    width: 400px;
+    height: 500px;
+  }
+
+  .coin4 {
+    width: 70px;
+    left: 0% !important;
+    top: 82%;
+    z-index: 2;
+  }
+
+  .coin1 {
+    width: 70px;
+    left: 75% !important;
+    top: 22%;
+    z-index: 3;
+  }
+
+  .coin2 {
+    width: 70px;
+    left: 56% !important;
+    top: 36%;
+    z-index: 3;
+  }
+
+  .coin3 {
+    width: 70px;
+    left: 72% !important;
+    top: 48%;
+    z-index: 3;
+  }
+
+  .left-star {
+    left: 2%;
+    top: 50%;
+    width: 20px !important;
+  }
+
+  .invest-title {
+    font-size: 37px;
+    line-height: 50px;
+  }
+
+  .invest-para {
+    width: 510px;
+  }
+
+  /* -------------------------------
+   Crypton Section
+--------------------------------*/
+
+  .gear1 {
+    width: 330px;
+    height: auto;
+    top: 64px;
+    left: 92px;
+    z-index: 4;
+  }
+
+  .left-axe {
+    width: 360px;
+    top: 28px;
+    left: 55px;
+    z-index: 2;
+    transform-origin: bottom right;
+  }
+
+  .right-axe {
+    width: 360px;
+    top: 27px;
+    right: 56px;
+    z-index: 2;
+    transform-origin: bottom left;
+  }
+
+  .mining-title {
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 40px;
+  }
+
+  .mining-para {
+    width: 460px;
+  }
+
+  /* -------------------------------
+   Get Started Section
+--------------------------------*/
+
+  .mini-title {
+    font-size: 40px;
+  }
+
+  .mini-para {
+    width: 500px;
+    margin-bottom: 30px;
+  }
+
+  /* -------------------------------
+   Pro miner Section
+--------------------------------*/
+
+  .pro-miner-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .pro-miner-text {
+    margin-bottom: 2.5rem;
+    width: 500px;
+  }
+
+  .pro-miner-image {
+    height: 300px;
+    margin: 0;
+  }
+
+  .laptop-base {
+    bottom: -29em;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+  }
+
+  .line {
+    top: 145px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 125px;
+    z-index: 4;
+    opacity: 0.8;
+  }
+
+  .central-bitcoin {
+    top: 296px;
+    left: 51%;
+    width: 115px;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+
+  .buy-btn {
+    bottom: -410px;
+    left: 32%;
+    width: 50px;
+    z-index: 9;
+  }
+
+  .sell-btn {
+    bottom: -410px;
+    right: 30%;
+    width: 50px;
+    z-index: 9;
+  }
+
+  .percentage-icon {
+    left: 4%;
+    top: 18em;
+    z-index: 6;
+    width: 80px;
+  }
+
+  .key-icon {
+    right: 1%;
+    top: 5em;
+    z-index: 6;
+    width: 80px;
+  }
+
+  .hammer {
+    top: 90px;
+    left: -2%;
+    z-index: 9;
+    transform-origin: top center;
+    width: 190px;
+  }
+
+  .a1 {
+    top: 63px;
+    left: 20%;
+    width: 120px;
+  }
+
+  .a2 {
+    top: 50px;
+    left: 47%;
+    width: 184px;
+  }
+
+  .a3 {
+    top: 164px;
+    right: -1px;
+    width: 170px;
+  }
+
+  .g4 {
+    top: 288px;
+    right: 5%;
+    width: 110px;
+  }
+
+  .g1 {
+    top: 110px;
+    left: -5%;
+    width: 70px;
+  }
+
+  .g2 {
+    top: 27px;
+    left: 17%;
+    width: 60px;
+  }
+
+  .g3 {
+    top: 40px;
+    right: 31%;
+    width: 60px;
+  }
+
+  .fc1 {
+    top: 88px;
+    left: 164px;
+    width: 55px;
+  }
+
+  .fc5 {
+    top: 125px;
+    left: 61%;
+    width: 50px;
+  }
+
+  .fc4 {
+    top: 116px;
+    right: 40%;
+    width: 55px;
+  }
+
+  .fc2 {
+    top: 50px;
+    left: 44%;
+    width: 55px;
+  }
+
+  .fc3 {
+    top: 102px;
+    right: 25%;
+    width: 55px;
+  }
+
+  /* -------------------------------
+   Invest Crypto Section
+--------------------------------*/
+
+  .invest-bg {
+    margin-top: 2em !important;
+  }
+
+  .invest-crypton-title {
+    font-size: 35px;
+  }
+
+  .invest-crypton-content {
+    padding: 60px 20px;
+    text-align: center;
+  }
+}
+
+/* -------------------------------
+   Extra Small Devices (phones)
+   max-width: 575.98px
+--------------------------------*/
+
+@media (max-width: 575.98px) {
+  /* -------------------------------
+   Banner Section
+--------------------------------*/
+
+  .banner-image {
+    width: 420px;
+    margin-left: 3em;
+  }
+
+  .banner-image .banner-img {
+    width: 530px;
+    position: absolute;
+    top: 53%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
+
+  .banner-image .banner-bitcoin {
+    width: 67px;
+    top: 56%;
+    left: 47%;
+  }
+
+  .banner-title-main,
+  .banner-title-gradient,
+  .banner-title-gradient,
+  .banner-subtitle {
+    font-size: 40px !important;
+  }
+
+  .banner-description {
+    max-width: 65%;
+  }
+
+  /* -------------------------------
+   Market trend Section
+--------------------------------*/
+
+  .market-title {
+    font-size: 30px !important;
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 4em;
+  }
+
+  .search-input {
+    width: 380px;
+  }
+
+  /* -------------------------------
+   Slider Image Section
+--------------------------------*/
+
+  .slider-img {
+    width: 100px;
+    height: 30px;
+  }
+
+  /* -------------------------------
+   Crypton Card Section
+--------------------------------*/
+
+  .crypton-title {
+    font-size: 35px !important;
+  }
+
+  /* -------------------------------
+   Invest Section
+--------------------------------*/
+
+  .invest-container {
+    position: relative;
+    width: 400px;
+    height: 500px;
+  }
+
+  .coin4 {
+    width: 70px;
+    left: 2% !important;
+    top: 82%;
+    z-index: 2;
+  }
+
+  .coin2 {
+    width: 70px;
+    left: 61% !important;
+    top: 36%;
+    z-index: 3;
+  }
+
+  .left-star {
+    left: 2%;
+    top: 50%;
+    width: 20px !important;
+  }
+
+  .invest-title {
+    font-size: 31px;
+    line-height: 50px;
+  }
+
+  .invest-para {
+    width: 480px;
+  }
+
+  /* -------------------------------
+   Crypton Section
+--------------------------------*/
+
+  .gear1 {
+    width: 330px;
+    height: auto;
+    top: 64px;
+    left: 69px;
+    z-index: 4;
+  }
+
+  .left-axe {
+    width: 360px;
+    top: 30px;
+    left: 35px;
+    z-index: 2;
+    transform-origin: bottom right;
+  }
+
+  .right-axe {
+    width: 360px;
+    top: 30px;
+    right: 30px;
+    z-index: 2;
+    transform-origin: bottom left;
+  }
+
+  .mining-title {
+    font-size: 34px;
+    line-height: 50px;
+  }
+
+  .mining-para {
+    width: 440px;
+  }
+
+  /* -------------------------------
+   Get Started Section
+--------------------------------*/
+
+  .mini-title {
+    font-size: 38px;
+  }
+
+  .mini-para {
+    width: 470px;
+    margin-bottom: 30px;
+  }
+
+  /* -------------------------------
+   Pro miner Section
+--------------------------------*/
+
+  .pro-miner-title {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .pro-miner-text {
+    margin-bottom: 2.5rem;
+    width: 470px;
+  }
+
+  .pro-miner-image {
+    height: 300px;
+    margin: 0;
+  }
+
+  .laptop-base {
+    bottom: -29em;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+  }
+
+  .line {
+    top: 145px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 125px;
+    z-index: 4;
+    opacity: 0.8;
+  }
+
+  .central-bitcoin {
+    top: 320px;
+    left: 51%;
+    width: 110px;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+
+  .buy-btn {
+    bottom: -417px;
+    left: 32%;
+    width: 50px;
+    z-index: 9;
+  }
+
+  .sell-btn {
+    bottom: -417px;
+    right: 30%;
+    width: 50px;
+    z-index: 9;
+  }
+
+  .percentage-icon {
+    left: 2%;
+    top: 18em;
+    z-index: 6;
+    width: 80px;
+  }
+
+  .key-icon {
+    right: 1%;
+    top: 6em;
+    z-index: 6;
+    width: 80px;
+  }
+
+  .hammer {
+    top: 100px;
+    left: 1%;
+    z-index: 9;
+    transform-origin: top center;
+    width: 190px;
+  }
+
+  .a1 {
+    top: 75px;
+    left: 22%;
+    width: 120px;
+  }
+
+  .a2 {
+    top: 50px;
+    left: 47%;
+    width: 184px;
+  }
+
+  .a3 {
+    top: 182px;
+    right: -1px;
+    width: 170px;
+  }
+
+  .g4 {
+    top: 300px;
+    right: 5%;
+    width: 110px;
+  }
+
+  .g1 {
+    top: 110px;
+    left: 0%;
+    width: 70px;
+  }
+
+  .g2 {
+    top: 33px;
+    left: 17%;
+    width: 60px;
+  }
+
+  .g3 {
+    top: 40px;
+    right: 31%;
+    width: 60px;
+  }
+
+  .fc1 {
+    top: 96px;
+    left: 165px;
+    width: 50px;
+  }
+
+  .fc5 {
+    top: 135px;
+    left: 61%;
+    width: 50px;
+  }
+
+  .fc4 {
+    top: 140px;
+    right: 43%;
+    width: 50px;
+  }
+
+  .fc2 {
+    top: 64px;
+    left: 48%;
+    width: 50px;
+  }
+
+  .fc3 {
+    top: 107px;
+    right: 24%;
+    width: 55px;
+  }
+
+  /* -------------------------------
+   Invest Crypto Section
+--------------------------------*/
+
+  .invest-crypton-title {
+    font-size: 40px;
+  }
+
+  .invest-crypton-content {
+    padding: 60px 20px;
+    text-align: center;
+  }
+}

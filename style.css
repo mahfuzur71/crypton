@@ -1,0 +1,1485 @@
+body {
+  background: linear-gradient(to right, #3a52ce 0%, #2e43c2 100%);
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*-------------------------------------
+        Menu Section Start 
+        -------------------------------------*/
+
+.navbar {
+  padding-top: 35px !important;
+}
+
+.navbar-toggler {
+  background: #fff !important;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 30px !important;
+  color: #fff !important;
+}
+
+.logo-icon {
+  width: 42px;
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff !important;
+  margin: 0px 20px 0 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f7971e !important;
+  transform: translateY(-2px);
+}
+
+.connect-wallet-btn {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  color: #fff !important;
+  font-family: "Poppins", sans-serif !important;
+  width: 140px;
+  height: 55px;
+  font-weight: bold !important;
+  border-radius: 10px !important;
+}
+
+.connect-wallet-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(247, 151, 30, 0.4);
+  color: #fff;
+}
+
+.connect-wallet-btn span {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.comet-section {
+  position: relative;
+  overflow: hidden;
+  height: 50px;
+  background: linear-gradient(to right, #3a52ce 0%, #2e43c2 100%);
+}
+
+.custom-hr-gradient {
+  border: none;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  top: 3%;
+  transform: translateY(-50%);
+}
+
+.comet-img {
+  position: absolute;
+  top: 18px;
+  left: -150px;
+  width: 40px;
+  transform: translateY(-50%);
+  filter: drop-shadow(0 0 20px #4d9eff);
+}
+
+/*-------------------------------------
+        Menu Section End 
+        -------------------------------------*/
+
+/*-------------------------------------
+        Banner Section Start 
+        -------------------------------------*/
+
+/* Banner Section Styles */
+.banner-section {
+  background: transparent;
+  padding: 100px 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.banner-content {
+  width: 700px;
+}
+
+.banner-title-main {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.banner-title-gradient {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 64px !important;
+  margin-bottom: 15px;
+}
+
+.banner-title-gradient:nth-of-type(1) {
+  font-size: 3.5rem;
+}
+
+.banner-title-gradient:nth-of-type(2) {
+  font-size: 3rem;
+}
+
+.banner-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.banner-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 30px;
+  margin-bottom: 2.5rem;
+  max-width: 90%;
+}
+
+.banner-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.banner-btn1 {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  color: #fff !important;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+  width: 160px;
+  height: 55px;
+  border: 2px solid transparent !important;
+  border-radius: 10px !important;
+  transition: all 0.3s ease !important;
+}
+
+.banner-btn2 {
+  background: transparent;
+  border: 2px solid #f7971e !important;
+  width: 170px;
+  height: 55px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+  border-radius: 10px !important;
+  transition: all 0.3s ease !important;
+}
+
+.banner-btn2 span {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+}
+
+.banner-btn2 i {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/*-------------------------------------
+        Button Hover
+        -------------------------------------*/
+
+/* Primary Button Hover */
+.banner-btn1:hover {
+  background: transparent !important;
+  border: 2px solid #f7971e !important;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(247, 151, 30, 0.3);
+}
+
+.banner-btn1:hover span {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.banner-btn1:hover i {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Outline Button Hover */
+.banner-btn2:hover {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%) !important;
+  border: 2px solid transparent !important;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(247, 151, 30, 0.4);
+}
+
+.banner-btn2:hover span {
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+  background: transparent !important;
+  -webkit-background-clip: unset !important;
+  background-clip: unset !important;
+}
+
+.banner-btn2:hover i {
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+  background: transparent !important;
+  -webkit-background-clip: unset !important;
+  background-clip: unset !important;
+}
+
+.banner-image {
+  position: relative;
+  width: 530px;
+  height: 530px;
+  margin-left: 4em;
+}
+
+.banner-image .banner-img {
+  width: 530px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-image .banner-bitcoin {
+  width: 110px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-49%, -53%);
+}
+
+/*-------------------------------------
+        Banner Section End
+        -------------------------------------*/
+
+/*-------------------------------------
+        Market Trend Section Start
+        -------------------------------------*/
+
+/* Market Trend Section */
+.market-trend-section {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.market-content {
+  background: linear-gradient(
+    to bottom,
+    #ffffff33 0%,
+    rgba(233, 228, 240, 0.04) 100%
+  );
+  border: 2px solid #ffffff9e;
+  border-bottom: none;
+  border-radius: 20px;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* Header Styles */
+.market-subtitle {
+  background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 1rem;
+  display: inline-block !important;
+}
+
+.market-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  color: #ffffff;
+}
+
+.market-title-line {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+/* Search Box */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4em;
+}
+
+.search-box {
+  position: relative;
+  width: 60%;
+}
+
+.search-input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid #ffffff99;
+  border-radius: 10px;
+  padding: 17px 50px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-input:focus {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20px rgba(247, 151, 30, 0.3);
+}
+
+.search-icon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.2rem;
+}
+
+/* Market Table */
+.market-table-container {
+  overflow-x: auto;
+}
+
+.market-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.table-header {
+  border-bottom: 1px solid #ffffff73;
+  color: #ffffff99;
+}
+
+.table-header th {
+  padding: 20px 15px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+}
+
+.table-row {
+  transition: all 0.3s ease;
+}
+
+.table-row:hover {
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateY(-2px);
+}
+
+.table-row td {
+  padding: 20px 15px;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* Currency Cell */
+.currency-cell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 500;
+}
+
+.currency-cell span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.currency-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* Price Cell */
+.price-cell {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Change Cell */
+
+.change-cell.positive {
+  color: #00ff88;
+}
+
+.change-cell.negative {
+  background: linear-gradient(135deg, #ff9966 0%, #ff5e62 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+}
+
+.change-cell.white {
+  color: #fff;
+}
+
+/* Stats Cell */
+.stats-icon {
+  width: 108px;
+  height: 24px;
+}
+
+/* Trade Button */
+
+.trade-bg {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.15);
+  display: inline-block;
+  border-radius: 6px;
+}
+.trade-btn {
+  border: 1px solid #f7971e;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.trade-btn:hover {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%) !important;
+  -webkit-text-fill-color: #fff !important;
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(247, 151, 30, 0.3);
+}
+
+/* যখন .table-row hover হবে, তখন তার ভিতরের .trade-btn এ hover effect apply হবে */
+.table-row:hover .trade-btn {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%) !important;
+  -webkit-text-fill-color: #fff !important;
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(247, 151, 30, 0.3);
+}
+
+/*-------------------------------------
+        Market Trend Section End
+        -------------------------------------*/
+
+/*-------------------------------------
+        Slider Section Start
+        -------------------------------------*/
+
+/* Image Slider Section */
+.image-slider-section {
+  padding-top: 5em;
+
+  padding-bottom: 3em;
+}
+
+.slider-track {
+  display: flex;
+  justify-content: end;
+}
+
+.slide {
+  /* 4 images per row with gap */
+  flex: 0 0 25%; /* 👈 Exactly 25% for 4 images */
+  min-width: 25%;
+}
+
+.slider-img {
+  width: 227px;
+  height: 47px;
+  transition: all 0.3s ease;
+}
+
+.slider-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+}
+
+/*-------------------------------------
+        Slider Section End
+        -------------------------------------*/
+
+/*-------------------------------------
+        Crypton Section Start
+        -------------------------------------*/
+
+/* Crypton Cards Section */
+.crypton-cards-section {
+  background: transparent;
+  padding-top: 8em;
+  padding-bottom: 6em;
+}
+
+/* Section Title */
+.crypton-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  color: #ffffff;
+  line-height: 1.5em;
+  margin-bottom: 2.8em;
+}
+
+/* Crypton Card */
+.crypton-card {
+  background: linear-gradient(135deg, #d3cce32e 0%, #e9e4f017 100%);
+  border-radius: 15px;
+  padding: 40px 30px;
+  height: 100%;
+  text-align: left;
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.crypton-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔸 Card hover করলে button এ hover effect active হবে */
+.crypton-card:hover .card-btn {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%) !important;
+  -webkit-text-fill-color: #fff !important;
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(247, 151, 30, 0.3);
+}
+
+/* Card Icon */
+.card-icon {
+  width: 140px;
+  height: 140px;
+  background: #ffffff12;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.icon-img {
+  width: 60px;
+  object-fit: contain;
+}
+
+/* Card Content */
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff !important;
+  margin-bottom: 20px !important;
+  margin-top: 35px !important;
+}
+
+.card-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffffa1;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* Card Button */
+.card-btn {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid #f7971e;
+  border-radius: 6px;
+  padding: 10px 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card-btn:hover {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%) !important;
+  -webkit-text-fill-color: #fff !important;
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(247, 151, 30, 0.3);
+}
+
+/*-------------------------------------
+        Crypton Section End
+        -------------------------------------*/
+
+/*-------------------------------------
+        Invest Section Start
+        -------------------------------------*/
+
+/* Invest Section */
+.invest-section {
+  background: transparent;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.invest-content {
+  padding-right: 2rem;
+  width: 700px;
+}
+
+/* Title */
+.invest-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  line-height: 70px;
+}
+
+/* Paragraphs */
+.invest-text {
+  margin-bottom: 2.5rem;
+}
+
+.invest-para {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff99;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+/* Get Started Link */
+.get-started-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.get-started-link:hover {
+  transform: translateX(10px);
+}
+
+.get-started-text {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.get-started-text a {
+  text-decoration: none;
+}
+
+.arrow-icon {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.get-started-link:hover .arrow-icon {
+  transform: translateX(5px);
+}
+
+/* Invest Image */
+
+.invest-container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.invest-container img {
+  position: absolute;
+  max-width: 100%;
+  user-select: none;
+}
+
+/* === Main Bag === */
+.bag {
+  width: 450px;
+  left: 52%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+/* === Small Bag & Cash === */
+.money-bag {
+  width: 200px;
+  left: 73%;
+  top: 78%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.cash {
+  width: 185px;
+  left: 44%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+/* === Coins === */
+.coin1 {
+  width: 70px;
+  left: 80% !important;
+  top: 22%;
+  z-index: 3;
+}
+.coin2 {
+  width: 70px;
+  left: 61% !important;
+  top: 32%;
+  z-index: 3;
+}
+.coin3 {
+  width: 70px;
+  left: 75% !important;
+  top: 50%;
+  z-index: 3;
+}
+.coin4 {
+  width: 70px;
+  left: 16% !important;
+  top: 87%;
+  z-index: 2;
+}
+
+/* === Stars === */
+.star {
+  width: 30px;
+  opacity: 0.8;
+}
+
+.left-star {
+  left: 8%;
+  top: 50%;
+  width: 20px !important;
+}
+
+.right-star1 {
+  left: 45%;
+  top: 31%;
+  width: 37px;
+}
+.right-star2 {
+  left: 53%;
+  top: 23%;
+  width: 20px !important;
+}
+.right-star3 {
+  left: 84%;
+  top: 12%;
+  width: 20px !important;
+}
+.right-star4 {
+  left: 86%;
+  top: 41%;
+  width: 20px !important;
+}
+.right-star5 {
+  left: 90%;
+  top: 57%;
+  width: 37px !important;
+}
+.right-star6 {
+  left: 93%;
+  top: 86%;
+  width: 20px !important;
+}
+
+/*-------------------------------------
+        Invest Section End
+        -------------------------------------*/
+
+/*-------------------------------------
+        Crypton Miner Section Start
+        -------------------------------------*/
+
+/* Mining Section */
+.mining-section {
+  background: transparent;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.mining-content {
+  padding-left: 2rem;
+  width: 700px;
+}
+
+/* Title */
+.mining-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  line-height: 70px;
+}
+
+/* Paragraphs */
+.mining-text {
+  margin-bottom: 2.5rem;
+}
+
+.mining-para {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff99;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+/* Get Started Mining Link */
+.get-started-mining {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.get-started-mining:hover {
+  transform: translateX(10px);
+}
+
+.get-started-mining a {
+  text-decoration: none;
+}
+
+.get-started-mining-text {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.mining-arrow-icon {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.get-started-mining:hover .mining-arrow-icon {
+  transform: translateX(5px);
+}
+
+/*-------------------------------------
+        Crypton Miner Image Section Start
+        -------------------------------------*/
+
+.crypton-miner {
+  width: 100%;
+  height: 45vh;
+  position: relative;
+}
+
+/* Gear Base */
+.gear1 {
+  width: 330px;
+  height: auto;
+  top: 62px;
+  left: 153px;
+  z-index: 4;
+}
+
+/* Left Axe */
+.left-axe {
+  width: 360px;
+  top: 26px;
+  left: 118px;
+  z-index: 2;
+  transform-origin: bottom right;
+}
+
+/* Right Axe */
+.right-axe {
+  width: 360px;
+  top: 26px;
+  right: 118px;
+  z-index: 2;
+  transform-origin: bottom left;
+}
+
+/* Bitcoin Bag */
+.bag1 {
+  width: 140px;
+  top: 160px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
+/*-------------------------------------
+        Crypton Miner Section End
+        -------------------------------------*/
+
+/*-------------------------------------
+        Get Started Section Start
+        -------------------------------------*/
+
+/* Get Started Section */
+.get-started-section {
+  background: transparent;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+/* Mini Section */
+.mini-section {
+  margin-bottom: 4rem;
+}
+
+.mini-content {
+  padding-right: 2rem;
+}
+
+.mini-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.mini-para {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff99;
+  line-height: 1.7;
+  margin-bottom: 0;
+  width: 550px;
+}
+
+.mini-btn {
+  border: 2px solid #f7971e !important;
+  width: 170px;
+  height: 55px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+  border-radius: 10px !important;
+  transition: all 0.3s ease !important;
+  background: transparent;
+  color: #f7971e; /* default text + icon color */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* Gradient only to text, not icon */
+.mini-btn .btn-text {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block; /* very important */
+  transform-style: preserve-3d; /* allows 3D rotate */
+  will-change: transform; /* smooth animation */
+}
+
+/* Icon stays visible with normal color */
+.mini-btn i {
+  color: #f7971e;
+}
+
+/* Hover state: full white */
+.mini-btn:hover {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%) !important;
+  color: #fff !important;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(247, 151, 30, 0.3);
+}
+
+.mini-btn:hover .btn-text,
+.mini-btn:hover i {
+  -webkit-text-fill-color: #fff !important;
+  color: #fff !important;
+}
+
+/* Cards Section */
+.cards-section {
+  margin-top: 2rem;
+}
+
+.step-card {
+  background: linear-gradient(135deg, #d3cce32e 0%, #e9e4f017 100%);
+  border-radius: 15px;
+  padding: 40px 30px;
+  height: 100%;
+  text-align: left;
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.step-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔸 Card hover করলে button এ hover effect active হবে */
+.step-card:hover .started-btn {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%) !important;
+  -webkit-text-fill-color: #fff !important;
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(247, 151, 30, 0.3);
+}
+
+.step-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.step-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffffa1;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* Card Button */
+.started-btn {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid #f7971e;
+  border-radius: 6px;
+  padding: 10px 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.started-btn:hover {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%) !important;
+  -webkit-text-fill-color: #fff !important;
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(247, 151, 30, 0.3);
+}
+
+/*-------------------------------------
+        Get Started Section End
+        -------------------------------------*/
+
+/*-------------------------------------
+        Pro Miner Section Start
+        -------------------------------------*/
+
+/* Pro Miner Section */
+.pro-miner-section {
+  background: transparent;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.pro-miner-content {
+  padding-right: 2rem;
+  width: 700px;
+}
+
+/* Title */
+.pro-miner-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  line-height: 70px;
+}
+
+/* Paragraphs */
+.pro-miner-text {
+  margin-bottom: 2.5rem;
+}
+
+.pro-miner-para {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff99;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+/* Get Started Pro Link */
+.get-started-pro {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.get-started-pro:hover {
+  transform: translateX(10px);
+}
+
+.get-started-pro-text {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.pro-arrow-icon {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.get-started-pro:hover .pro-arrow-icon {
+  transform: translateX(5px);
+}
+
+/*-------------------------------------
+        Pro Miner Image Section Start
+        -------------------------------------*/
+
+.pro-miner-image {
+  margin-left: 100px;
+}
+.pro-miner-image img {
+  overflow: hidden;
+}
+
+.hero-img {
+  position: absolute;
+  max-width: 100%;
+  transition: all 0.3s ease;
+}
+
+.laptop-base {
+  bottom: -16em;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+.central-bitcoin {
+  top: 88px;
+  left: 51%;
+  width: 140px;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.flying-coin {
+  width: 90px;
+  z-index: 8;
+}
+.fc1 {
+  top: -160px;
+  left: 185px;
+  width: 65px;
+}
+.fc2 {
+  top: -200px;
+  left: 48%;
+  width: 60px;
+}
+.fc3 {
+  top: -160px;
+  right: 22%;
+}
+.fc4 {
+  top: -112px;
+  right: 45%;
+  width: 60px;
+}
+.fc5 {
+  top: -116px;
+  left: 62%;
+  width: 60px;
+}
+
+.hammer {
+  top: -160px;
+  left: -3%;
+  z-index: 9;
+  transform-origin: top center;
+  width: 235px;
+}
+
+.gear {
+  width: 80px;
+  z-index: 3;
+}
+.g1 {
+  top: -130px;
+  left: -4%;
+}
+.g2 {
+  top: -245px;
+  left: 15%;
+}
+.g3 {
+  top: -250px;
+  right: 28%;
+}
+.g4 {
+  top: 72px;
+  right: 5%;
+  width: 110px;
+}
+
+.key-icon {
+  right: 2%;
+  top: -9em;
+  z-index: 6;
+  width: 80px;
+}
+
+.percentage-icon {
+  left: 4%;
+  top: 5em;
+  z-index: 6;
+  width: 80px;
+}
+
+.buy-btn {
+  bottom: -200px;
+  left: 32%;
+  width: 50px;
+  z-index: 9;
+}
+
+.sell-btn {
+  bottom: -200px;
+  right: 30%;
+  width: 50px;
+  z-index: 9;
+}
+
+.arrow {
+  width: 120px;
+  z-index: 2;
+}
+.a1 {
+  top: -200px;
+  left: 20%;
+  width: 150px;
+}
+.a2 {
+  top: -215px;
+  left: 48%;
+  width: 220px;
+}
+.a3 {
+  top: -56px;
+  right: -14px;
+  width: 170px;
+}
+
+.line {
+  top: -105px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 125px;
+  z-index: 4;
+  opacity: 0.8;
+}
+
+/*-------------------------------------
+        Pro Miner Section End
+        -------------------------------------*/
+
+/*-------------------------------------
+        Invest Crypto Section Start
+        -------------------------------------*/
+
+/* Invest Crypton Section */
+.invest-crypton-section {
+  background: transparent;
+  padding-top: 5em;
+  padding-bottom: 2em;
+}
+
+.invest-bg {
+  background: linear-gradient(135deg, #d3cce32e 0%, #e9e4f017 100%) !important;
+  border-radius: 10px;
+}
+
+.invest-crypton-content {
+  padding: 60px 50px;
+
+  text-align: center;
+}
+
+.invest-crypton-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.invest-crypton-para {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff99;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.invest-crypton-btn {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  color: #000 !important;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+  width: 160px;
+  height: 55px;
+  border: 2px solid transparent !important;
+  border-radius: 10px !important;
+  transition: all 0.3s ease !important;
+}
+
+.invest-crypton-btn:hover {
+  background: transparent !important;
+  border: 2px solid #f7971e !important;
+  transform: translateY(-3px);
+  color: #fff !important;
+  box-shadow: 0 8px 25px rgba(247, 151, 30, 0.3);
+}
+
+.invest-hr-gradient {
+  border: none;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  margin-top: -10px;
+}
+
+/*-------------------------------------
+        Invest Crypto Section End
+        -------------------------------------*/
+
+/*-------------------------------------
+        Footer Section Start
+        -------------------------------------*/
+
+.footer-section {
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+}
+.footer-logo {
+  text-align: center;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 30px !important;
+  color: #fff !important;
+}
+.footer-logo img {
+  width: 42px;
+  margin-right: 15px;
+}
+
+/*-------------------------------------
+        Footer Section End
+        -------------------------------------*/

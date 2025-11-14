@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypton</title>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-------------------------------------
+    Menu Section Start
+    ------------------------------------->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="Crypton Logo" class="logo-icon" />
+          Crypton
+        </a>
+
+        <!-- Mobile Toggle Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation Items -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Market</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Exchange</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tutorials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Wallets</a>
+            </li>
+          </ul>
+
+          <!-- Connect Wallet Button -->
+          
+          <a href="#" class="btn connect-wallet-btn">
+                <span class="btn-text">My Account</span>
+              </a>
+        </div>
+      </div>
+    </nav>
+
+<section class="comet-section">
+  <hr class="custom-hr-gradient" />
+  <img src="images/comet.png" alt="comet" class="comet-img" />
+</section>
+
+
+
+
+
+
+    <!-------------------------------------
+    Menu Section End
+    ------------------------------------->
+
+    <!-------------------------------------
+    Banner Section Start
+    ------------------------------------->
+
+    <!-- Banner Section -->
+    <section class="banner-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left Content -->
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="banner-content">
+              <h1 class="banner-title-main">A trusted and secure</h1>
+              <h2 class="banner-title-gradient">Cryptocurrency</h2>
+              <h3 class="banner-title-gradient">Exchange</h3>
+              <h4 class="banner-subtitle">Digital Platform</h4>
+
+              <p class="banner-description">
+                ultrices viverra eget velit tincidunt aliquam. Ornare nunc, est
+                aliquam convallis at. Aliquet enim facilisis felis lorem id
+                habitant.
+              </p>
+
+              <div class="banner-buttons">
+                <button class="btn banner-btn1 me-3">
+                  <i class="fas fa-bolt me-2"></i>
+                  <span class="btn-text">Get Started</span>
+                </button>
+                
+                <button class="btn banner-btn2">
+                  <i class="fas fa-play me-2"></i>
+                  <span class="btn-text">How it works?</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Image -->
+          <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
+            <div class="banner-image">
+              <img
+                src="images/banner-img.png"
+                alt="Cryptocurrency Exchange"
+                class="img-fluid banner-img"
+              />
+              
+                <img 
+              src="images/banner-bitcoin.png" 
+              alt="banner-bitcoin" 
+              class="banner-bitcoin"
+              />
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------
+    Banner Section End
+    ------------------------------------->
+
+    <!-------------------------------------
+    Market Trend Section Start
+    ------------------------------------->
+
+    <!-- Market Trend Section -->
+    <section class="market-trend-section py-5">
+      <div class="container">
+        <div class="market-content">
+          <!-- Header -->
+          <div class="text-center mb-5">
+            <h5 class="market-subtitle">Market Trend</h5>
+            <h4 class="market-title">
+              Trusted & Secure Crypto<br />
+              <span class="market-title-line">Buy & Sell</span>
+            </h4>
+          </div>
+
+          <!-- Search Box -->
+          <div class="search-container">
+            <div class="search-box">
+              <i class="fas fa-search search-icon"></i>
+              <input
+                type="text"
+                class="search-input"
+                placeholder="Search for crypto"
+              />
+            </div>
+          </div>
+
+          <!-- Market Table -->
+          <div class="market-table-container">
+            <table class="market-table">
+              <thead>
+                <tr class="table-header">
+                  <th>Currency</th>
+                  <th>Last Price</th>
+                  <th>Change</th>
+                  <th>Market Stats</th>
+                  <th>Trade</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Row 1 -->
+                <tr class="table-row">
+                  <td class="currency-cell">
+                    <img
+                      src="images/market-currency1.png"
+                      alt="Bitcoin"
+                      class="currency-icon"
+                    />
+                    <span>Bitcoin | BTC</span>
+                  </td>
+                  <td class="price-cell">$109,980.00</td>
+                  <td class="change-cell white">+24.9%</td>
+                  <td class="stats-cell">
+                    <img
+                      src="images/market-vector1.png"
+                      alt="Market Stats"
+                      class="stats-icon"
+                    />
+                  </td>
+                  <td class="trade-cell">
+                    <a href="#" class="trade-bg">
+                      <button class="trade-btn">Trade</button>
+                    </a>
+                  </td>
+                </tr>
+                <!-- Row 2 -->
+                <tr class="table-row">
+                  <td class="currency-cell">
+                    <img
+                      src="images/market-currency2.png"
+                      alt="Ethereum"
+                      class="currency-icon"
+                    />
+                    <span>Ripple | XRP</span>
+                  </td>
+                  <td class="price-cell">$2.51</td>
+                  <td class="change-cell white">+25.2%</td>
+                  <td class="stats-cell">
+                    <img
+                      src="images/market-vector2.png"
+                      alt="Market Stats"
+                      class="stats-icon"
+                    />
+                  </td>
+                  <td class="trade-cell">
+                    <a href="#" class="trade-bg">
+                      <button class="trade-btn">Trade</button>
+                    </a>
+                  </td>
+                </tr>
+                <!-- Row 3 -->
+                <tr class="table-row">
+                  <td class="currency-cell">
+                    <img
+                      src="images/market-currency3.png"
+                      alt="Cardano"
+                      class="currency-icon"
+                    />
+                    <span>Ethereum | ETH</span>
+                  </td>
+                  <td class="price-cell">$3,879.29</td>
+                  <td class="change-cell negative">-0.89%</td>
+                  <td class="stats-cell">
+                    <img
+                      src="images/market-vector3.png"
+                      alt="Market Stats"
+                      class="stats-icon"
+                    />
+                  </td>
+                  <td class="trade-cell">
+                    <a href="#" class="trade-bg">
+                      <button class="trade-btn">Trade</button>
+                    </a>
+                  </td>
+                </tr>
+                <!-- Row 4 -->
+                <tr class="table-row">
+                  <td class="currency-cell">
+                    <img
+                      src="images/market-currency4.png"
+                      alt="Solana"
+                      class="currency-icon"
+                    />
+                    <span>Litecoin | LTC</span>
+                  </td>
+                  <td class="price-cell">$99.98</td>
+                  <td class="change-cell negative">-1.41%</td>
+                  <td class="stats-cell">
+                    <img
+                      src="images/market-vector4.png"
+                      alt="Market Stats"
+                      class="stats-icon"
+                    />
+                  </td>
+                  <td class="trade-cell">
+                    <a href="#" class="trade-bg">
+                      <button class="trade-btn">Trade</button>
+                    </a>
+                  </td>
+                </tr>
+                <!-- Row 5 -->
+                <tr class="table-row">
+                  <td class="currency-cell">
+                    <img
+                      src="images/market-currency5.png"
+                      alt="Ripple"
+                      class="currency-icon"
+                    />
+                    <span>Binance | BNB</span>
+                  </td>
+                  <td class="price-cell">$1,089.83</td>
+                  <td class="change-cell white">+1.41%</td>
+                  <td class="stats-cell">
+                    <img
+                      src="images/market-vector5.png"
+                      alt="Market Stats"
+                      class="stats-icon"
+                    />
+                  </td>
+                  <td class="trade-cell">
+                    <a href="#" class="trade-bg">
+                      <button class="trade-btn">Trade</button>
+                    </a>
+                  </td>
+                </tr>
+                <!-- Row 6 -->
+                <tr class="table-row">
+                  <td class="currency-cell">
+                    <img
+                      src="images/market-currency6.png"
+                      alt="Ripple"
+                      class="currency-icon"
+                    />
+                    <span>Tether | USDT</span>
+                  </td>
+                  <td class="price-cell">$1.00</td>
+                  <td class="change-cell white">+1.41%</td>
+                  <td class="stats-cell">
+                    <img
+                      src="images/market-vector6.png"
+                      alt="Market Stats"
+                      class="stats-icon"
+                    />
+                  </td>
+                  <td class="trade-cell">
+                    <a href="#" class="trade-bg">
+                      <button class="trade-btn">Trade</button>
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------
+    Market Trend Section Start
+    ------------------------------------->
+
+    <!-------------------------------------
+    Slider Section Start
+    ------------------------------------->
+
+    <!-- Image Slider Section -->
+    <section class="image-slider-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="slider-container">
+              <div class="slider-track">
+                <!-- Slide 1 -->
+                <div class="slide">
+                  <img
+                    src="images/slider-img1.png"
+                    alt="Slide 1"
+                    class="slider-img"
+                  />
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide">
+                  <img
+                    src="images/slider-img2.png"
+                    alt="Slide 2"
+                    class="slider-img"
+                  />
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                  <img
+                    src="images/slider-img3.png"
+                    alt="Slide 3"
+                    class="slider-img"
+                  />
+                </div>
+                <!-- Slide 4 -->
+                <div class="slide">
+                  <img
+                    src="images/slider-img4.png"
+                    alt="Slide 4"
+                    class="slider-img"
+                  />
+                </div>
+
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------
+    Slider Section End
+    ------------------------------------->
+
+    <!-------------------------------------
+    Crypton Section Start
+    ------------------------------------->
+
+    <!-- Crypton Cards Section -->
+    <section class="crypton-cards-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="text-center mb-5">
+          <h1 class="crypton-title">
+            Why you Should Choose<br />
+            <span class="crypton-gradient">Crypton</span>
+          </h1>
+        </div>
+
+        <!-- Cards Row -->
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="crypton-card">
+              <div class="card-icon">
+                <img
+                  src="images/crypton-img1.png"
+                  alt="Secure Icon"
+                  class="icon-img"
+                />
+              </div>
+              <h4 class="card-title">Manage Portfolio</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                sed pellentesque non pellentesque vitae. Magna pellentesque eu
+                pellentesque aliquam.
+              </p>
+              <a href="#" class="trade-bg">
+                <button class="card-btn">Learn more</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="crypton-card">
+              <div class="card-icon">
+                <img
+                  src="images/crypton-img2.png"
+                  alt="Fast Icon"
+                  class="icon-img"
+                />
+              </div>
+              <h4 class="card-title">Secure Storage</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                sed pellentesque non pellentesque vitae. Magna pellentesque eu
+                pellentesque aliquam.
+              </p>
+              <a href="#" class="trade-bg">
+                <button class="card-btn">Learn more</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="crypton-card">
+              <div class="card-icon">
+                <img
+                  src="images/crypton-img3.png"
+                  alt="Support Icon"
+                  class="icon-img"
+                />
+              </div>
+              <h4 class="card-title">Learn Best Practices</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                sed pellentesque non pellentesque vitae. Magna pellentesque eu
+                pellentesque aliquam.
+              </p>
+
+              <a href="#" class="trade-bg">
+                <button class="card-btn">Learn more</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------
+    Crypton Section End
+    ------------------------------------->
+
+    <!-------------------------------------
+    Invest Section Start
+    ------------------------------------->
+
+    <!-- Invest Section -->
+    <section class="invest-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left Content -->
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="invest-content">
+              <h3 class="invest-title">
+                Invest your Cryptocurrency<br />
+                to gain some value
+              </h3>
+
+              <div class="invest-text">
+                <p class="invest-para">
+                  Start your cryptocurrency investment journey with our secure
+                  and user-friendly platform. We provide the tools and resources
+                  you need to make informed decisions.
+                </p>
+                <p class="invest-para">
+                  Whether you're a beginner or experienced trader, our platform
+                  offers seamless trading experiences with real-time market data
+                  and advanced analytics.
+                </p>
+              </div>
+
+              <div class="get-started-link">
+                <a href="#">
+                  <span class="get-started-text">Let’s Get Started</span>
+                  <i class="fas fa-arrow-right-long arrow-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Image -->
+          <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
+            <!-- Investment Coin Animation Section -->
+<section class="invest-section text-center position-relative">
+  <div class="invest-container position-relative d-inline-block">
+
+    <!-- Main Bag -->
+    <img src="images/invest-coin/bag.png" alt="Money Bag" class="bag" />
+
+    <!-- Coins -->
+    <img src="images/invest-coin/coin1.png" alt="Coin 1" class="coin coin1" />
+    <img src="images/invest-coin/coin2.png" alt="Coin 2" class="coin coin2" />
+    <img src="images/invest-coin/coin3.png" alt="Coin 3" class="coin coin3" />
+    <img src="images/invest-coin/coin4.png" alt="Coin 4" class="coin coin4" />
+
+    <!-- Extra Bag & Cash -->
+    <img src="images/invest-coin/money-bag.png" alt="Small Bag" class="money-bag" />
+    <img src="images/invest-coin/cash.png" alt="Cash" class="cash" />
+
+    <!-- Stars -->
+    <img src="images/invest-coin/left-star.png" alt="Left Star" class="star left-star" />
+    <img src="images/invest-coin/right-star1.png" alt="Right Star 1" class="star right-star1" />
+    <img src="images/invest-coin/right-star2.png" alt="Right Star 2" class="star right-star2" />
+    <img src="images/invest-coin/right-star3.png" alt="Right Star 3" class="star right-star3" />
+    <img src="images/invest-coin/right-star4.png" alt="Right Star 4" class="star right-star4" />
+    <img src="images/invest-coin/right-star5.png" alt="Right Star 5" class="star right-star5" />
+    <img src="images/invest-coin/right-star6.png" alt="Right Star 6" class="star right-star6" />
+
+  </div>
+</section>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------
+    Invest Section End
+    ------------------------------------->
+
+    <!-------------------------------------
+    Crypton Miner Section Start
+    ------------------------------------->
+
+    <!-- Crypton Mining Section -->
+    <section class="mining-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left Image -->
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="crypton-miner position-relative overflow-hidden">
+    <!-- Gear -->
+    <img src="images/crypton-miner/gear.png" alt="Gear" class="gear1 position-absolute" />
+
+    <!-- Left Pickaxe -->
+    <img src="images/crypton-miner/left-axe.png" alt="Left Pickaxe" class="left-axe position-absolute" />
+
+    <!-- Right Pickaxe -->
+    <img src="images/crypton-miner/right-axe.png" alt="Right Pickaxe" class="right-axe position-absolute" />
+
+    <!-- Bitcoin Bag -->
+    <img src="images/crypton-miner/bag.png" alt="Bitcoin Bag" class="bag1 position-absolute" />
+  </div>
+          </div>
+
+          <!-- Right Content -->
+          <div class="col-lg-6">
+            <div class="mining-content">
+              <h3 class="mining-title">
+                Learn How to Become a<br />
+                Crypton Miner
+              </h3>
+
+              <div class="mining-text">
+                <p class="mining-para">
+                  Join our mining network and start earning passive income with
+                  Crypton. Our advanced mining technology ensures maximum
+                  efficiency and profitability.
+                </p>
+                <p class="mining-para">
+                  With low energy consumption and high hash rates, you can mine
+                  Crypton tokens effortlessly and watch your earnings grow day
+                  by day.
+                </p>
+              </div>
+
+              <div class="get-started-mining">
+                <a href="#">
+                  <span class="get-started-mining-text">Start Mining Now</span>
+                  <i class="fas fa-arrow-right-long mining-arrow-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------
+    Crypton Miner Section End
+    ------------------------------------->
+
+    <!-------------------------------------
+    Get Started Section Start
+    ------------------------------------->
+
+    <!-- Get Started Section -->
+    <section class="get-started-section">
+      <div class="container">
+        <!-- Mini Section -->
+        <div class="row align-items-center mini-section">
+          <div class="col-lg-8">
+            <div class="mini-content">
+              <h3 class="mini-title">How to get started.</h3>
+              <p class="mini-para">
+                Start your cryptocurrency journey in just a few simple steps.
+                Our platform makes it easy for anyone to begin trading and
+                investing.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <button class="btn mini-btn me-3">
+              <i class="fa-solid fa-bolt me-2"></i>
+              <span class="btn-text">Get Started</span>
+            </button>
+
+          </div>
+        </div>
+
+        <!-- Cards Section -->
+        <div class="row cards-section">
+          <!-- Card 1 -->
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="step-card">
+              <h4 class="step-title">Create Account</h4>
+              <p class="step-text">
+                Sign up in minutes with our easy registration process. Verify
+                your identity and get ready to start trading.
+              </p>
+              <a href="#">
+                <button class="started-btn">Learn more</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="step-card">
+              <h4 class="step-title">Deposit Funds</h4>
+              <p class="step-text">
+                Add funds to your account using various payment methods. Start
+                with any amount that suits your investment goals.
+              </p>
+              <a href="#">
+                <button class="started-btn">Learn more</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="step-card">
+              <h4 class="step-title">Start Trading</h4>
+              <p class="step-text">
+                Begin trading cryptocurrencies with our intuitive platform.
+                Access real-time data and advanced trading tools.
+              </p>
+              <a href="#">
+                <button class="started-btn">Learn more</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------
+    Get Started Section End
+    ------------------------------------->
+
+    <!-------------------------------------
+    Pro Miner Section Star
+    ------------------------------------->
+
+    <!-- Pro Miner Section -->
+    <section class="pro-miner-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left Content -->
+          <div class="col-lg-6">
+            <div class="pro-miner-content">
+              <h3 class="pro-miner-title">
+                Become a Pro Miner<br />
+                Maximize Your Earnings
+              </h3>
+
+              <div class="pro-miner-text">
+                <p class="pro-miner-para">
+                  Upgrade to our Pro Miner program and unlock advanced features
+                  for maximum profitability. Get access to exclusive mining
+                  pools and priority technical support.
+                </p>
+                <p class="pro-miner-para">
+                  Our Pro Miner tier offers enhanced hash rates, lower fees, and
+                  automated optimization tools to maximize your cryptocurrency
+                  mining returns.
+                </p>
+              </div>
+
+              <div class="get-started-pro">
+                <a href="#">
+                  <span class="get-started-pro-text">Go Pro Now</span>
+                  <i class="fas fa-arrow-right-long pro-arrow-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Image -->
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="pro-miner-image text-center">
+              <div class="container position-relative text-center">
+    
+     <!-- Laptop Base -->
+    <img src="images/pro-miner/laptop-base.png" alt="Laptop Base" class="hero-img laptop-base" />
+
+    <!-- Central Bitcoin -->
+    <img src="images/pro-miner/central-bitcoin.png" alt="Central Bitcoin" class="hero-img central-bitcoin" />
+
+    <!-- Flying Coins -->
+    <img src="images/pro-miner/flying-coin1.png" alt="Flying Coin 1" class="hero-img flying-coin fc1" />
+    <img src="images/pro-miner/flying-coin2.png" alt="Flying Coin 2" class="hero-img flying-coin fc2" />
+    <img src="images/pro-miner/flying-coin3.png" alt="Flying Coin 3" class="hero-img flying-coin fc3" />
+    <img src="images/pro-miner/flying-coin4.png" alt="Flying Coin 4" class="hero-img flying-coin fc4" />
+    <img src="images/pro-miner/flying-coin5.png" alt="Flying Coin 5" class="hero-img flying-coin fc5" />
+
+    <!-- Pickaxe -->
+    <img src="images/pro-miner/hammer.png" alt="Hammer" class="hero-img hammer" />
+
+    <!-- Gears -->
+    <img src="images/pro-miner/gear1.png" alt="Gear 1" class="hero-img gear g1" />
+    <img src="images/pro-miner/gear2.png" alt="Gear 2" class="hero-img gear g2" />
+    <img src="images/pro-miner/gear3.png" alt="Gear 3" class="hero-img gear g3" />
+    <img src="images/pro-miner/gear4.png" alt="Gear 4" class="hero-img gear g4" />
+
+    <!-- Key and Percentage -->
+    <img src="images/pro-miner/key.png" alt="Key Icon" class="hero-img key-icon" />
+    <img src="images/pro-miner/percentage.png" alt="Percentage Icon" class="hero-img percentage-icon" />
+
+    <!-- Buy / Sell Buttons -->
+    <img src="images/pro-miner/buy-button.png" alt="Buy Button" class="hero-img buy-btn" />
+    <img src="images/pro-miner/sell-button.png" alt="Sell Button" class="hero-img sell-btn" />
+
+    <!-- Arrows -->
+    <img src="images/pro-miner/arrow1.png" alt="Arrow 1" class="hero-img arrow a1" />
+    <img src="images/pro-miner/arrow2.png" alt="Arrow 2" class="hero-img arrow a2" />
+    <img src="images/pro-miner/arrow3.png" alt="Arrow 3" class="hero-img arrow a3" />
+
+    <!-- Lines -->
+    <img src="images/pro-miner/line.png" alt="Line" class="hero-img line" />
+
+  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------
+    Pro Miner Section End
+    ------------------------------------->
+
+    <!-------------------------------------
+    Invest Crypto Section Start
+    ------------------------------------->
+
+    <!-- Invest Crypton Section -->
+    <section class="invest-crypton-section">
+      <div class="container">
+        <div class="row justify-content-center invest-bg">
+          <div class="col-lg-10">
+            <div class="invest-crypton-content">
+              <h3 class="invest-crypton-title">
+                invest your<br />
+                Crypto coin in Crypton
+              </h3>
+              <p class="invest-crypton-para">
+                Join thousands of investors who trust Crypton for their
+                cryptocurrency investments. Our platform offers secure,
+                reliable, and profitable investment opportunities.
+              </p>
+
+              <button class="btn invest-crypton-btn me-3">
+                <i class="fas fa-bolt me-2"></i>
+                <span class="btn-text">Get Started</span>
+              </button>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <section class="comet-section">
+  <hr class="custom-hr-gradient" />
+  <img src="images/comet.png" alt="comet" class="comet-img" />
+</section>
+
+    <!-------------------------------------
+    Invest Crypto Section End
+    ------------------------------------->
+
+    <!-------------------------------------
+    Footer Section Start
+    ------------------------------------->
+
+    <section class="footer-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <a class="footer-logo" href="#">
+            <img src="images/logo.png" alt="Crypton Logo" class="footer-icon"/>
+            Crypton
+          </a>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------
+    Footer Section End
+    ------------------------------------->
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/EasePack.min.js"></script>
+
+<!-- Animation Script -->
+<script src="js/animation.js"></script>
+</body>
+</html>
+
